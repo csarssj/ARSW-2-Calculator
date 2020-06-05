@@ -6,20 +6,20 @@
 package edu.escuelaing.arsw.app.linkendlist;
 
 /**
+ * Nodos utilizados por las Linked List
  *
  * @author ceseg
  */
 public class Node <E> {
             E data; 
-            Node next;
-  
-        // Constructor 
+            Node<E> next;
+            
         public Node(E d) 
         { 
             data = d; 
             next = null; 
         } 
-        public Node(E d, Node next) 
+        public Node(E d, Node<E> next) 
         { 
             data = d; 
             next = null; 
