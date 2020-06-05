@@ -17,7 +17,7 @@ mvn package
 
 ```
 
-![image](https://github.com/csarssj/Primer-Repositorio-ARSW/blob/master/resources/compilado.png)
+![image](https://github.com/csarssj/ARSW-2-Calculator/blob/master/resources/compilado.png)
 
 
 
@@ -31,7 +31,7 @@ java -cp target/calculator-1.0-SNAPSHOT.jar edu.escuelaing.arsw.app.main "Ruta d
 
 A continuación un ejemplo:
 
-![image](https://github.com/csarssj/Primer-Repositorio-ARSW/blob/master/resources/ejemplo.png)
+![image](https://github.com/csarssj/ARSW-2-Calculator/blob/master/resources/ejemplo.png)
 
 
 ### Prerequisitos
@@ -49,9 +49,9 @@ El sistema, mas alla de facilitar el registro de las iniciativas e ideas de proy
 
 ### Diagrama de clases
 
-![image](https://github.com/csarssj/Primer-Repositorio-ARSW/blob/master/resources/diagrama.png)
+![image](https://github.com/csarssj/ARSW-2-Calculator/blob/master/resources/diagrama.png)
 
-![image](https://github.com/csarssj/Primer-Repositorio-ARSW/blob/master/resources/LinkedList.png)
+![image](https://github.com/csarssj/ARSW-2-Calculator/blob/master/resources/LinkedList.png)
 
 En el paquete llamado *LinkedList* se implemento una versión diferente a la que viene en el API de Java, se crearon dos clases en ese paquete para poder hacer uso de los metodos 
 que normalmente son utilizados con las LinkedList:
@@ -80,13 +80,13 @@ de la clase Calculator para calcular e imprimir los resultados.
 ## Reporte de pruebas
 A continuación se muestra un reporte de las pruebas realizadas en el programa, las cuales se realizaron con los siguientes casos:
 
-![image](https://github.com/csarssj/Primer-Repositorio-ARSW/blob/master/resources/caso1.png)
+![image](https://github.com/csarssj/ARSW-2-Calculator/blob/master/resources/caso1.png)
 
-![image](https://github.com/csarssj/Primer-Repositorio-ARSW/blob/master/resources/caso2.png)
+![image](https://github.com/csarssj/ARSW-2-Calculator/blob/master/resources/caso2.png)
 
 Se realizaron un total de 17 pruebas donde se busco comprobar que se calcularan los datos pedidos con exactitud, con casos como "deberiaHallar" y "deberiaFallar"
 
-![image](https://github.com/csarssj/Primer-Repositorio-ARSW/blob/master/resources/pruebas.png)
+![image](https://github.com/csarssj/ARSW-2-Calculator/blob/master/resources/pruebasC.png)
 
 se ejecutan a través del siguiente comando en consola:
 
@@ -94,7 +94,7 @@ se ejecutan a través del siguiente comando en consola:
 mvn test
 ```
 
-![image](https://github.com/csarssj/Primer-Repositorio-ARSW/blob/master/resources/pruebas.png)
+![image](https://github.com/csarssj/ARSW-2-Calculator/blob/master/resources/pruebas.png)
 
 
 
