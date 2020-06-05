@@ -22,8 +22,16 @@ import edu.escuelaing.arsw.app.linkendlist.LinkedList;
  */
 public class Reader {
 	static Calculator calculator;
+	static Double mean;
+	static Double mean2;
+	static Double deviation;
+	static Double deviation2;
 	public Reader () {
 		calculator = new Calculator();
+		mean = new Double (0);
+		mean2 = new Double (0);
+		deviation = new Double (0);
+		deviation2  = new Double (0);
 	}
 	public static  void readFile(File file) {
 		LinkedList <Double> column1 = new LinkedList <Double>();
@@ -41,15 +49,27 @@ public class Reader {
 				column2.add(second);
 			}
 			ln.close();
-			Double mean = calculator.Mean(column1);
-			Double deviation = calculator.deviation(column1);
-			Double mean2 = calculator.Mean(column2);
-			Double deviation2 = calculator.deviation(column2);
+			mean = calculator.Mean(column1);
+			deviation = calculator.deviation(column1);
+			mean2 = calculator.Mean(column2);
+			deviation2 = calculator.deviation(column2);
 			System.out.println("La media es: "+String.format("%.2f", mean)+" con una desviación de: " +String.format("%.2f", deviation));
 			System.out.println("La media es: "+String.format("%.2f", mean2)+" con una desviación de: " +String.format("%.2f", deviation2));
 		} catch (IOException e) {
 			System.err.format("IOException: %s%n", e);
 		}
 		
+	}
+	public static Double getMean() {
+		return mean;
+	}
+	public static Double getMean2() {
+		return mean2;
+	}
+	public static Double getDeviation() {
+		return deviation;
+	}
+	public static Double getDeviation2() {
+		return deviation2;
 	}
 }
